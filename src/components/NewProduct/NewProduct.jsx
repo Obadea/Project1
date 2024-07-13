@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./NewProduct.css";
 import { starImg } from "../../utils";
-import { Skeleton } from "@mui/material";
 import ProductCard from "../ProductCard/ProductCard";
-// import Box from "@mui/material";
 
 const NewProduct = () => {
   const [data, setData] = useState();
@@ -50,11 +48,6 @@ const NewProduct = () => {
         </marquee>
       </div>
 
-      {/* data.forEach(element => {}); */}
-
-      {/* <Skeleton variant="rectangular" width={210} height={118} />
-      <Skeleton />
-      <Skeleton width="60%" /> */}
       <ProductCard data={data?.products} />
     </div>
   );
