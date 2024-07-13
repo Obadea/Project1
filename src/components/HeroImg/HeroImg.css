@@ -1,0 +1,13 @@
+.heroImg {
+  background: url(../../assets/pexels.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 640px) {
+  .heroImg {
+    height: 35vh;
+  }
+}

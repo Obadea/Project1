@@ -1,0 +1,27 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.product-card img {
+  max-width: 75%;
+  width: 75%;
+  margin: auto;
+  height: auto;
+}
+
+.product-container .btn-container {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.product-container .btn-container::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.3px;
+  background: rgb(9, 10, 32);
+  top: 0;
+}
