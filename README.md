@@ -73,7 +73,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Links
 
 - **GitHub Repository**: [https://github.com/Obadea/Project1](https://github.com/Obadea/Project1)
-- **Live Website**: [https://projectbloocode](https://projectbloocode)
+- **Live Website**: [https://projectbloocode](https://bloocodebeauty.vercel.app/products)
 
 
 
